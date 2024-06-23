@@ -1,0 +1,237 @@
+/* MineralRevenueTable.css */
+
+.mineral-revenue-container {
+  max-width: 99%; /* Expand the container across the whole page */
+  padding: 1em;
+  margin: 1em;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.mineral-revenue-container h1 {
+  font-size: 1.1em;
+  margin-bottom: 1em;
+}
+
+.mineral-revenue-container .form-group {
+  margin-bottom: 10px;
+}
+
+.mineral-revenue-container label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.mineral-revenue-container select {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #94e6c5;
+  border-radius: 4px;
+}
+
+.mineral-revenue-container .loading-text {
+  margin-top: 20px;
+  text-align: center;
+  font-style: italic;
+}
+
+.mineral-revenue-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  table-layout: fixed; /* Ensure table takes up full width */
+}
+
+.mineral-revenue-table th,
+.mineral-revenue-table td {
+  margin:2px
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.mineral-revenue-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.mineral-revenue-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.mineral-revenue-table tbody tr:hover {
+  background-color: #e5f8e3;  ;
+}
+
+.mineral-revenue-table tbody td:last-child {
+  font-weight: bold;
+  font-style: italic; /* Fancy styling for sum field */
+  color: #119605; /* Coral color for sum field text */
+}
+
+/* Example CSS for MineralRevenueTable.css */
+.mineral-revenue-container {
+  width: 100%;
+  margin:5px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.loading-text {
+  font-style: italic;
+  color: #efffef;
+}
+
+.table-container {
+  overflow-x: auto; /* Enable horizontal scrolling on smaller screens */
+}
+
+.mineral-revenue-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 8px;
+}
+
+.mineral-revenue-table th,
+.mineral-revenue-table td {
+  border: 1px solid #9ef69f4e;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .mineral-revenue-table th,
+  .mineral-revenue-table td {
+    font-size: 12px; /* Adjust font size for smaller screens */
+  }
+}
+
+/* Example CSS for MineralRevenueTable.css */
+.mineral-revenue-container {
+  width: 98%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.form-group {
+  margin-bottom: 7px;
+}
+
+.loading-text {
+  font-style: italic;
+  color: #09651a;
+}
+
+.table-container {
+  overflow-x: auto; /* Enable horizontal scrolling on smaller screens */
+}
+
+.mineral-revenue-table {
+  width: 98%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.mineral-revenue-table th,
+.mineral-revenue-table td {
+  border: 1px solid #28d367;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .mineral-revenue-table th,
+  .mineral-revenue-table td {
+    font-size: 1em; /* Adjust font size for smaller screens */
+    padding: 8px; /* Smaller padding for compact layout */
+  }
+  
+  .mineral-revenue-table th:nth-child(1),
+  .mineral-revenue-table td:nth-child(1) {
+    width: 5%; /* Narrower width for numbering column */
+  }
+
+  .mineral-revenue-table th:nth-child(2),
+  .mineral-revenue-table td:nth-child(2) {
+    width: 40%; /* Wider width for minerals column */
+  }
+}
+
+.mineral-revenue-table th, .mineral-revenue-table td {
+    border: 1px solid #74927f !important;
+    padding: 0.65em;
+    text-align: center;
+}
+
+/* Column specific styles */
+.mineral-revenue-table th:nth-child(1),
+.mineral-revenue-table td:nth-child(1) {
+  width: 60px; /* Narrower # column */
+}
+
+.mineral-revenue-table th:nth-child(2),
+.mineral-revenue-table td:nth-child(2) {
+  padding:2px;
+  margin: 2px;
+  width: 220px; /* Wider Mineral column */
+}
+
+.mineral-revenue-table th, .mineral-revenue-table td {
+    border: 1px solid #6cbbd6 !important;
+    padding: 0.65em;
+    text-align: center;
+}
+
+.mineral-revenue-container {
+  padding: 20px;
+}
+
+.filters {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.mineral-revenue-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.mineral-revenue-table th,
+.mineral-revenue-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.mineral-revenue-table th {
+  background-color: #f2f2f2;
+}
+
+.loading-text {
+  text-align: center;
+}
+
+#title-p {
+    font-size: 2em; /* Increase the font size */
+    font-weight: bold; /* Make the text bold */
+    color: #333; /* Set the text color */
+    text-align: center; /* Center-align the text */
+    padding: 20px 0; /* Add padding for spacing */
+    border-bottom: 2px solid #ccc; /* Add a bottom border */
+    margin-bottom: 20px; /* Add some margin below the title */
+    background-color: #f9f9f9; /* Optional: Add a background color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
