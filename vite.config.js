@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "http://localhost:3000", // Your Express server URL
+        target: "https://expressbackend-kvby.onrender.com", // Your Express server URL
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, ""),
       },
